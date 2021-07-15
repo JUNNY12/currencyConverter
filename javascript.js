@@ -24,19 +24,19 @@ function calculate(){
     });
 
 }
-    data.forEach(converterContainer => {
-     const{conversion_rates}
-    const currencyList = document.createElement("div");
-    currencyList.classList.add("currency")
-     currencyList.innerHTML = `
-     <select id="currency__1">
-     ${conversion_rates}
-       </select>
-       <input type="number" id="amount__1" placeholder="0" value="1">
-   </div>
+//     data.forEach(converterContainer => {
+//      const{conversion_rates}
+//     const currencyList = document.createElement("div");
+//     currencyList.classList.add("currency")
+//      currencyList.innerHTML = `
+//      <select id="currency__1">
+//      ${conversion_rates}
+//        </select>
+//        <input type="number" id="amount__1" placeholder="0" value="1">
+//    </div>
  
-     `
- }
+//      `
+//  }
 
 
 currency_E1.addEventListener('change', calculate);
